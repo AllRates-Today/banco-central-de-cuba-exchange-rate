@@ -1,0 +1,55 @@
+{
+  "name": "banco-central-de-cuba-exchange-rate",
+  "version": "1.3.2",
+  "description": "Official Banco Central de Cuba (Cuba) daily exchange rates — 13 currencies vs CUP, history since 2025. Zero-dependency Node.js/TypeScript client.",
+  "keywords": [
+    "bccu",
+    "banco",
+    "central",
+    "de",
+    "cuba",
+    "exchange-rate",
+    "exchange-rates",
+    "currency",
+    "forex",
+    "fx",
+    "cup",
+    "central-bank",
+    "official-rates",
+    "cuba",
+    "api",
+    "typescript"
+  ],
+  "homepage": "https://allratestoday.com/central-bank-rates-api/bccu/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AllRates-Today/banco-central-de-cuba-exchange-rate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AllRates-Today/banco-central-de-cuba-exchange-rate/issues"
+  },
+  "license": "MIT",
+  "author": "AllRatesToday <hello@allratestoday.com> (https://allratestoday.com)",
+  "type": "module",
+  "main": "./index.cjs",
+  "module": "./index.mjs",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.cjs"
+    }
+  },
+  "files": [
+    "index.mjs",
+    "index.cjs",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "sideEffects": false
+}
