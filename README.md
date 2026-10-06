@@ -85,11 +85,11 @@ const pair = await getRate('USD', 'CUP', { apiKey: 'art_live_...' });
 {
   bank: 'bccu',
   name: 'Banco Central de Cuba',
-  rate_date: '2026-09-26',   // Banco Central de Cuba's own publication date
+  rate_date: '2026-10-06',   // Banco Central de Cuba's own publication date
   source: 'USD',
   target: 'CUP',
-  rate: 681,
-  rate_type: 'special',
+  rate: 24,
+  rate_type: 'official',
   derived: false,
   method: 'published',
   disclaimer: 'Official rates as published by the named central bank. On weekends/holidays the most recent published rate_date is returned.'
@@ -113,11 +113,9 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'bccu',
   name: 'Banco Central de Cuba',
-  rate_date: '2026-09-26',
+  rate_date: '2026-10-06',
   rates: [
     { "base": "USD", "quote": "CUP", "type": "official", "value": 24 },
-    { "base": "USD", "quote": "CUP", "type": "public", "value": 120 },
-    { "base": "USD", "quote": "CUP", "type": "special", "value": 681 },
     // … the rest of the published table (13 currencies vs CUP)
   ],
   disclaimer: '…'
@@ -157,7 +155,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'banco-central-de-cuba-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'CUP', from: '2026-01-01', to: '2026-09-26' },
+  { source: 'USD', target: 'CUP', from: '2026-01-01', to: '2026-10-06' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -170,11 +168,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'CUP',
   from: '2026-01-01',
-  to: '2026-09-26',
+  to: '2026-10-06',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-09-26', rate: 681, rate_type: 'special', derived: false, method: 'published' },
+    { date: '2026-10-06', rate: 24, rate_type: 'official', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
@@ -204,7 +202,7 @@ Banco Central de Cuba publishes the official peso rates daily for 13 currencies 
 - `value` is always **quote currency per 1 unit of base currency** (`base: "EUR", quote: "USD", value: 1.15` means 1 EUR = 1.15 USD).
 - Banco Central de Cuba quotes **CUP per 1 unit of foreign currency** (e.g. `base: "USD", quote: "CUP"` means CUP per one US dollar).
 - Need the other way round? Ask `getRate(target, source)` and the API inverts or crosses for you, flagged `derived: true` — never divide a published rate yourself in a compliance workflow.
-- `rate_type` tells you which of the central bank's series a row belongs to (`special` here); some publishers print buy/sell or several fixings for the same pair.
+- `rate_type` tells you which of the central bank's series a row belongs to (`official` here); some publishers print buy/sell or several fixings for the same pair.
 
 ## 🧩 ERP & accounting systems
 
