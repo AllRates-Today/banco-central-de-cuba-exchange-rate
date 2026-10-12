@@ -40,23 +40,49 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 Today's full Banco Central de Cuba table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-09** by Banco Central de Cuba — 13 rates. Updated 2026-10-09.
+Published **2026-10-10** by Banco Central de Cuba — 39 rates. Updated 2026-10-12.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | CUP | official | 16.6848 |
-| CAD | CUP | official | 16.85157 |
-| CHF | CUP | official | 28.81844 |
-| CNY | CUP | official | 3.58086 |
-| DKK | CUP | official | 3.59451 |
-| EUR | CUP | official | 26.8728 |
-| GBP | CUP | official | 31.7136 |
-| JPY | CUP | official | 0.15188428 |
-| MXN | CUP | official | 1.32046 |
-| NOK | CUP | official | 2.5047 |
-| RUB | CUP | official | 0.28227 |
-| SEK | CUP | official | 2.40226 |
+| AUD | CUP | official | 16.734 |
+| AUD | CUP | public | 83.67 |
+| AUD | CUP | special | 486.6805 |
+| CAD | CUP | official | 16.80555 |
+| CAD | CUP | public | 84.02773 |
+| CAD | CUP | special | 488.76129 |
+| CHF | CUP | official | 28.85309 |
+| CHF | CUP | public | 144.26545 |
+| CHF | CUP | special | 839.14403 |
+| CNY | CUP | official | 3.58629 |
+| CNY | CUP | public | 17.93146 |
+| CNY | CUP | special | 104.30131 |
+| DKK | CUP | official | 3.59505 |
+| DKK | CUP | public | 17.97524 |
+| DKK | CUP | special | 104.55597 |
+| EUR | CUP | official | 26.8668 |
+| EUR | CUP | public | 134.334 |
+| EUR | CUP | special | 781.3761 |
+| GBP | CUP | official | 31.722 |
+| GBP | CUP | public | 158.61 |
+| GBP | CUP | special | 922.5815 |
+| JPY | CUP | official | 0.15158681 |
+| JPY | CUP | public | 0.75793176 |
+| JPY | CUP | special | 4.4085879 |
+| MXN | CUP | official | 1.3144 |
+| MXN | CUP | public | 6.57198 |
+| MXN | CUP | special | 38.22699 |
+| NOK | CUP | official | 2.50432 |
+| NOK | CUP | public | 12.52159 |
+| NOK | CUP | special | 72.8339 |
+| RUB | CUP | official | 0.28292 |
+| RUB | CUP | public | 1.41458 |
+| RUB | CUP | special | 8.22813 |
+| SEK | CUP | official | 2.4012 |
+| SEK | CUP | public | 12.006 |
+| SEK | CUP | special | 69.83492 |
 | USD | CUP | official | 24 |
+| USD | CUP | public | 120 |
+| USD | CUP | special | 698 |
 
 Source: [Official rates published by BCCU, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/bccu/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
