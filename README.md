@@ -115,7 +115,7 @@ const pair = await getRate('USD', 'CUP', { apiKey: 'art_live_...' });
 {
   bank: 'bccu',
   name: 'Banco Central de Cuba',
-  rate_date: '2026-10-10',   // Banco Central de Cuba's own publication date
+  rate_date: '2026-10-14',   // Banco Central de Cuba's own publication date
   source: 'USD',
   target: 'CUP',
   rate: 24,
@@ -143,11 +143,9 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'bccu',
   name: 'Banco Central de Cuba',
-  rate_date: '2026-10-10',
+  rate_date: '2026-10-14',
   rates: [
     { "base": "USD", "quote": "CUP", "type": "official", "value": 24 },
-    { "base": "USD", "quote": "CUP", "type": "public", "value": 120 },
-    { "base": "USD", "quote": "CUP", "type": "special", "value": 698 },
     // … the rest of the published table (13 currencies vs CUP)
   ],
   disclaimer: '…'
@@ -187,7 +185,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'banco-central-de-cuba-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'CUP', from: '2026-01-01', to: '2026-10-10' },
+  { source: 'USD', target: 'CUP', from: '2026-01-01', to: '2026-10-14' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -200,11 +198,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'CUP',
   from: '2026-01-01',
-  to: '2026-10-10',
+  to: '2026-10-14',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-10-10', rate: 24, rate_type: 'official', derived: false, method: 'published' },
+    { date: '2026-10-14', rate: 24, rate_type: 'official', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
