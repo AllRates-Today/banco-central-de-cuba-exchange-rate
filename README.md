@@ -42,22 +42,22 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-14** by Banco Central de Cuba — 13 rates. Updated 2026-10-14.
+Published **2026-10-15** by Banco Central de Cuba — 13 rates. Updated 2026-10-15.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | CUP | official | 16.764 |
-| CAD | CUP | official | 16.89427 |
-| CHF | CUP | official | 28.82364 |
-| CNY | CUP | official | 3.58541 |
-| DKK | CUP | official | 3.59392 |
-| EUR | CUP | official | 26.8656 |
-| GBP | CUP | official | 31.7952 |
-| JPY | CUP | official | 0.15148646 |
-| MXN | CUP | official | 1.30861 |
-| NOK | CUP | official | 2.51984 |
-| RUB | CUP | official | 0.28688 |
-| SEK | CUP | official | 2.40626 |
+| AUD | CUP | official | 16.686 |
+| CAD | CUP | official | 16.81261 |
+| CHF | CUP | official | 28.6123 |
+| CNY | CUP | official | 3.58597 |
+| DKK | CUP | official | 3.56859 |
+| EUR | CUP | official | 26.6736 |
+| GBP | CUP | official | 31.5444 |
+| JPY | CUP | official | 0.15120495 |
+| MXN | CUP | official | 1.29823 |
+| NOK | CUP | official | 2.51036 |
+| RUB | CUP | official | 0.28369 |
+| SEK | CUP | official | 2.3818 |
 | USD | CUP | official | 24 |
 
 Source: [Official rates published by BCCU, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/bccu/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
