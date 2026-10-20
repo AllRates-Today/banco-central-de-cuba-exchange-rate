@@ -47,22 +47,22 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-19 by Banco Central de Cuba — 13 rates. Updated 2026-10-19.</summary>
+<summary>Table as text: published 2026-10-20 by Banco Central de Cuba — 13 rates. Updated 2026-10-20.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | CUP | official | 16.7004 |
-| CAD | CUP | official | 16.97613 |
-| CHF | CUP | official | 29.18998 |
-| CNY | CUP | official | 3.58946 |
-| DKK | CUP | official | 3.6144 |
-| EUR | CUP | official | 27.0168 |
-| GBP | CUP | official | 32.0772 |
-| JPY | CUP | official | 0.15207691 |
-| MXN | CUP | official | 1.30389 |
-| NOK | CUP | official | 2.54054 |
-| RUB | CUP | official | 0.28392 |
-| SEK | CUP | official | 2.42466 |
+| AUD | CUP | official | 16.7532 |
+| CAD | CUP | official | 17.02852 |
+| CHF | CUP | official | 29.02933 |
+| CNY | CUP | official | 3.59241 |
+| DKK | CUP | official | 3.59877 |
+| EUR | CUP | official | 26.8968 |
+| GBP | CUP | official | 31.9344 |
+| JPY | CUP | official | 0.15141948 |
+| MXN | CUP | official | 1.30176 |
+| NOK | CUP | official | 2.54762 |
+| RUB | CUP | official | 0.28662 |
+| SEK | CUP | official | 2.41926 |
 | USD | CUP | official | 24 |
 
 </details>
