@@ -47,49 +47,49 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-28 by Banco Central de Cuba — 39 rates. Updated 2026-10-28.</summary>
+<summary>Table as text: published 2026-10-29 by Banco Central de Cuba — 39 rates. Updated 2026-10-29.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | CUP | official | 16.8852 |
-| AUD | CUP | public | 84.426 |
-| AUD | CUP | special | 530.4767 |
-| CAD | CUP | official | 17.09767 |
-| CAD | CUP | public | 85.48835 |
-| CAD | CUP | special | 537.15181 |
-| CHF | CUP | official | 28.95404 |
-| CHF | CUP | public | 144.77018 |
-| CHF | CUP | special | 909.63928 |
-| CNY | CUP | official | 3.60004 |
-| CNY | CUP | public | 18.00018 |
-| CNY | CUP | special | 113.10113 |
-| DKK | CUP | official | 3.57838 |
-| DKK | CUP | public | 17.89189 |
-| DKK | CUP | special | 112.4207 |
-| EUR | CUP | official | 26.7468 |
-| EUR | CUP | public | 133.734 |
-| EUR | CUP | special | 840.2953 |
-| GBP | CUP | official | 31.9884 |
-| GBP | CUP | public | 159.942 |
-| GBP | CUP | special | 1004.9689 |
-| JPY | CUP | official | 0.1520383 |
-| JPY | CUP | public | 0.76019035 |
-| JPY | CUP | special | 4.7764616 |
-| MXN | CUP | official | 1.28746 |
-| MXN | CUP | public | 6.43732 |
-| MXN | CUP | special | 40.44782 |
-| NOK | CUP | official | 2.57196 |
-| NOK | CUP | public | 12.85981 |
-| NOK | CUP | special | 80.80245 |
-| RUB | CUP | official | 0.29755 |
-| RUB | CUP | public | 1.48775 |
-| RUB | CUP | special | 9.34805 |
-| SEK | CUP | official | 2.41564 |
-| SEK | CUP | public | 12.07821 |
-| SEK | CUP | special | 75.8914 |
+| AUD | CUP | official | 16.8792 |
+| AUD | CUP | public | 84.396 |
+| AUD | CUP | special | 533.1014 |
+| CAD | CUP | official | 17.07881 |
+| CAD | CUP | public | 85.39406 |
+| CAD | CUP | special | 539.4058 |
+| CHF | CUP | official | 28.91218 |
+| CHF | CUP | public | 144.5609 |
+| CHF | CUP | special | 913.14299 |
+| CNY | CUP | official | 3.60033 |
+| CNY | CUP | public | 18.00167 |
+| CNY | CUP | special | 113.71052 |
+| DKK | CUP | official | 3.57614 |
+| DKK | CUP | public | 17.88069 |
+| DKK | CUP | special | 112.94637 |
+| EUR | CUP | official | 26.7288 |
+| EUR | CUP | public | 133.644 |
+| EUR | CUP | special | 844.1846 |
+| GBP | CUP | official | 31.914 |
+| GBP | CUP | public | 159.57 |
+| GBP | CUP | special | 1007.9505 |
+| JPY | CUP | official | 0.15182663 |
+| JPY | CUP | public | 0.75913428 |
+| JPY | CUP | special | 4.7952431 |
+| MXN | CUP | official | 1.28741 |
+| MXN | CUP | public | 6.43704 |
+| MXN | CUP | special | 40.66066 |
+| NOK | CUP | official | 2.58359 |
+| NOK | CUP | public | 12.91795 |
+| NOK | CUP | special | 81.59838 |
+| RUB | CUP | official | 0.29962 |
+| RUB | CUP | public | 1.49811 |
+| RUB | CUP | special | 9.46309 |
+| SEK | CUP | official | 2.41726 |
+| SEK | CUP | public | 12.0863 |
+| SEK | CUP | special | 76.3451 |
 | USD | CUP | official | 24 |
 | USD | CUP | public | 120 |
-| USD | CUP | special | 754 |
+| USD | CUP | special | 758 |
 
 </details>
 
@@ -254,6 +254,7 @@ Banco Central de Cuba publishes the official peso rates daily for 13 currencies 
 
 - Publisher's own page: [Tasas de cambio](https://www.bc.gob.cu/tasas-de-cambio) · [www.bc.gob.cu](https://www.bc.gob.cu)
 - Publication: every business day; the exact schedule, freshness status and any current delay are on the [Banco Central de Cuba rates page](https://allratestoday.com/central-bank-rates-api/bccu/)
+- In the API: usually by **04:15 UTC** (measured over the last 14 publications). Schedule a sync at or after that time and retry hourly until `rate_date` moves; every response carries the same figure as `available_by_utc` — see [when to poll](https://allratestoday.com/docs/#when-to-poll)
 - Values are stored unmodified, with the publisher's own `rate_date` on every row — see the [methodology](https://allratestoday.com/official-rates-methodology/)
 
 ## 🧭 Reading the numbers
