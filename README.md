@@ -24,72 +24,57 @@
 
 Get a free API key at [allratestoday.com/register](https://allratestoday.com/register) — no credit card required. Latest rates are on every plan, including free.
 
-## ⚡ Try it without a key
-
-The latest Banco Central de Cuba table is also served keyless, CORS-open and edge-cached, for evaluation, embeds and AI agents:
-
-```bash
-curl "https://allratestoday.com/api/open/central-bank/bccu?source=USD&target=CUP"
-```
-
-```js
-const r = await fetch('https://allratestoday.com/api/open/central-bank/bccu').then((x) => x.json());
-console.log(r.rate_date, r.rates.length); // the central bank's latest published table, no key
-```
-
-The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and is free to use with a visible, followable link where the rates are shown: `<a href="https://allratestoday.com">Exchange rates by AllRatesToday</a>` (terms: <https://allratestoday.com/terms/#attribution>). The client below uses the keyed API, which adds point-in-time tables and history; with a key the link is appreciated, not required.
-
 ## 📈 Latest published table
 
 [![Latest Banco Central de Cuba table](https://allratestoday.com/api/open/central-bank/bccu/table.svg)](https://allratestoday.com/central-bank-rates-api/bccu/)
 
-The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
+The image is rendered live from the keyless endpoint, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-29 by Banco Central de Cuba — 39 rates. Updated 2026-10-29.</summary>
+<summary>Table as text: published 2026-10-30 by Banco Central de Cuba — 39 rates. Updated 2026-10-30.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | CUP | official | 16.8792 |
-| AUD | CUP | public | 84.396 |
-| AUD | CUP | special | 533.1014 |
-| CAD | CUP | official | 17.07881 |
-| CAD | CUP | public | 85.39406 |
-| CAD | CUP | special | 539.4058 |
-| CHF | CUP | official | 28.91218 |
-| CHF | CUP | public | 144.5609 |
-| CHF | CUP | special | 913.14299 |
-| CNY | CUP | official | 3.60033 |
-| CNY | CUP | public | 18.00167 |
-| CNY | CUP | special | 113.71052 |
-| DKK | CUP | official | 3.57614 |
-| DKK | CUP | public | 17.88069 |
-| DKK | CUP | special | 112.94637 |
-| EUR | CUP | official | 26.7288 |
-| EUR | CUP | public | 133.644 |
-| EUR | CUP | special | 844.1846 |
-| GBP | CUP | official | 31.914 |
-| GBP | CUP | public | 159.57 |
-| GBP | CUP | special | 1007.9505 |
-| JPY | CUP | official | 0.15182663 |
-| JPY | CUP | public | 0.75913428 |
-| JPY | CUP | special | 4.7952431 |
-| MXN | CUP | official | 1.28741 |
-| MXN | CUP | public | 6.43704 |
-| MXN | CUP | special | 40.66066 |
-| NOK | CUP | official | 2.58359 |
-| NOK | CUP | public | 12.91795 |
-| NOK | CUP | special | 81.59838 |
-| RUB | CUP | official | 0.29962 |
-| RUB | CUP | public | 1.49811 |
-| RUB | CUP | special | 9.46309 |
-| SEK | CUP | official | 2.41726 |
-| SEK | CUP | public | 12.0863 |
-| SEK | CUP | special | 76.3451 |
+| AUD | CUP | official | 16.8648 |
+| AUD | CUP | public | 84.324 |
+| AUD | CUP | special | 535.4574 |
+| CAD | CUP | official | 17.15511 |
+| CAD | CUP | public | 85.77555 |
+| CAD | CUP | special | 544.67477 |
+| CHF | CUP | official | 29.02231 |
+| CHF | CUP | public | 145.11155 |
+| CHF | CUP | special | 921.45837 |
+| CNY | CUP | official | 3.60301 |
+| CNY | CUP | public | 18.01504 |
+| CNY | CUP | special | 114.39552 |
+| DKK | CUP | official | 3.58407 |
+| DKK | CUP | public | 17.92034 |
+| DKK | CUP | special | 113.79418 |
+| EUR | CUP | official | 26.7888 |
+| EUR | CUP | public | 133.944 |
+| EUR | CUP | special | 850.5444 |
+| GBP | CUP | official | 32.0604 |
+| GBP | CUP | public | 160.302 |
+| GBP | CUP | special | 1017.9177 |
+| JPY | CUP | official | 0.15201912 |
+| JPY | CUP | public | 0.7600979 |
+| JPY | CUP | special | 4.8264878 |
+| MXN | CUP | official | 1.27658 |
+| MXN | CUP | public | 6.38288 |
+| MXN | CUP | special | 40.53127 |
+| NOK | CUP | official | 2.58854 |
+| NOK | CUP | public | 12.94268 |
+| NOK | CUP | special | 82.18602 |
+| RUB | CUP | official | 0.29673 |
+| RUB | CUP | public | 1.48366 |
+| RUB | CUP | special | 9.42126 |
+| SEK | CUP | official | 2.4346 |
+| SEK | CUP | public | 12.17298 |
+| SEK | CUP | special | 77.29841 |
 | USD | CUP | official | 24 |
 | USD | CUP | public | 120 |
-| USD | CUP | special | 758 |
+| USD | CUP | special | 762 |
 
 </details>
 
