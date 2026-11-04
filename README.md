@@ -32,49 +32,49 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-03 by Banco Central de Cuba — 39 rates. Updated 2026-11-03.</summary>
+<summary>Table as text: published 2026-11-04 by Banco Central de Cuba — 39 rates. Updated 2026-11-04.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | CUP | official | 16.8444 |
-| AUD | CUP | public | 84.222 |
-| AUD | CUP | special | 543.93375 |
-| CAD | CUP | official | 17.1889 |
-| CAD | CUP | public | 85.94449 |
-| CAD | CUP | special | 555.05819 |
-| CHF | CUP | official | 29.279 |
-| CHF | CUP | public | 146.39502 |
-| CHF | CUP | special | 945.46785 |
-| CNY | CUP | official | 3.60995 |
-| CNY | CUP | public | 18.04973 |
-| CNY | CUP | special | 116.57115 |
-| DKK | CUP | official | 3.59639 |
-| DKK | CUP | public | 17.98197 |
-| DKK | CUP | special | 116.13358 |
-| EUR | CUP | official | 26.88 |
-| EUR | CUP | public | 134.4 |
-| EUR | CUP | special | 868 |
-| GBP | CUP | official | 32.208 |
-| GBP | CUP | public | 161.04 |
-| GBP | CUP | special | 1040.05 |
-| JPY | CUP | official | 0.15203345 |
-| JPY | CUP | public | 0.76016724 |
-| JPY | CUP | special | 4.9094212 |
-| MXN | CUP | official | 1.29195 |
-| MXN | CUP | public | 6.45974 |
-| MXN | CUP | special | 41.71915 |
-| NOK | CUP | official | 2.5861 |
-| NOK | CUP | public | 12.93048 |
-| NOK | CUP | special | 83.50933 |
-| RUB | CUP | official | 0.29518 |
-| RUB | CUP | public | 1.47592 |
-| RUB | CUP | special | 9.53199 |
-| SEK | CUP | official | 2.45266 |
-| SEK | CUP | public | 12.26329 |
-| SEK | CUP | special | 79.20043 |
+| AUD | CUP | official | 16.7412 |
+| AUD | CUP | public | 83.706 |
+| AUD | CUP | special | 544.78655 |
+| CAD | CUP | official | 17.15634 |
+| CAD | CUP | public | 85.78169 |
+| CAD | CUP | special | 558.2958 |
+| CHF | CUP | official | 29.23977 |
+| CHF | CUP | public | 146.19883 |
+| CHF | CUP | special | 951.51072 |
+| CNY | CUP | official | 3.59782 |
+| CNY | CUP | public | 17.98912 |
+| CNY | CUP | special | 117.07917 |
+| DKK | CUP | official | 3.59419 |
+| DKK | CUP | public | 17.97093 |
+| DKK | CUP | special | 116.96082 |
+| EUR | CUP | official | 26.8692 |
+| EUR | CUP | public | 134.346 |
+| EUR | CUP | special | 874.36855 |
+| GBP | CUP | official | 32.2008 |
+| GBP | CUP | public | 161.004 |
+| GBP | CUP | special | 1047.8677 |
+| JPY | CUP | official | 0.15148164 |
+| JPY | CUP | public | 0.75740936 |
+| JPY | CUP | special | 4.9295080351 |
+| MXN | CUP | official | 1.28085 |
+| MXN | CUP | public | 6.40427 |
+| MXN | CUP | special | 41.68112 |
+| NOK | CUP | official | 2.58127 |
+| NOK | CUP | public | 12.90635 |
+| NOK | CUP | special | 83.99882 |
+| RUB | CUP | official | 0.29445 |
+| RUB | CUP | public | 1.47226 |
+| RUB | CUP | special | 9.58194 |
+| SEK | CUP | official | 2.4486 |
+| SEK | CUP | public | 12.24302 |
+| SEK | CUP | special | 79.68168 |
 | USD | CUP | official | 24 |
 | USD | CUP | public | 120 |
-| USD | CUP | special | 775 |
+| USD | CUP | special | 781 |
 
 </details>
 
