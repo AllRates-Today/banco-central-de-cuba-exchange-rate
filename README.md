@@ -32,49 +32,49 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-13 by Banco Central de Cuba — 39 rates. Updated 2026-11-15.</summary>
+<summary>Table as text: published 2026-11-16 by Banco Central de Cuba — 39 rates. Updated 2026-11-16.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
 | AUD | CUP | official | 16.338 |
 | AUD | CUP | public | 81.69 |
-| AUD | CUP | special | 561.61875 |
+| AUD | CUP | special | 566.384 |
 | CAD | CUP | official | 16.82616 |
 | CAD | CUP | public | 84.13082 |
-| CAD | CUP | special | 578.39941 |
+| CAD | CUP | special | 583.30704 |
 | CHF | CUP | official | 28.7494 |
 | CHF | CUP | public | 143.74701 |
-| CHF | CUP | special | 988.26066 |
+| CHF | CUP | special | 996.6459 |
 | CNY | CUP | official | 3.59877 |
 | CNY | CUP | public | 17.99384 |
-| CNY | CUP | special | 123.70763 |
+| CNY | CUP | special | 124.75727 |
 | DKK | CUP | official | 3.55108 |
 | DKK | CUP | public | 17.75542 |
-| DKK | CUP | special | 122.06851 |
+| DKK | CUP | special | 123.10424 |
 | EUR | CUP | official | 26.5464 |
 | EUR | CUP | public | 132.732 |
-| EUR | CUP | special | 912.5325 |
+| EUR | CUP | special | 920.2752 |
 | GBP | CUP | official | 31.7568 |
 | GBP | CUP | public | 158.784 |
-| GBP | CUP | special | 1091.64 |
+| GBP | CUP | special | 1100.9024 |
 | JPY | CUP | official | 0.15007511 |
 | JPY | CUP | public | 0.75037331 |
-| JPY | CUP | special | 5.1588939 |
+| JPY | CUP | special | 5.2026429 |
 | MXN | CUP | official | 1.28781 |
 | MXN | CUP | public | 6.43903 |
-| MXN | CUP | special | 44.26833 |
+| MXN | CUP | special | 44.64394 |
 | NOK | CUP | official | 2.5059 |
 | NOK | CUP | public | 12.5295 |
-| NOK | CUP | special | 86.14029 |
+| NOK | CUP | special | 86.87118 |
 | RUB | CUP | official | 0.28903 |
 | RUB | CUP | public | 1.44517 |
-| RUB | CUP | special | 9.93553 |
+| RUB | CUP | special | 10.01983 |
 | SEK | CUP | official | 2.39717 |
 | SEK | CUP | public | 11.98586 |
-| SEK | CUP | special | 82.40276 |
+| SEK | CUP | special | 83.10194 |
 | USD | CUP | official | 24 |
 | USD | CUP | public | 120 |
-| USD | CUP | special | 825 |
+| USD | CUP | special | 832 |
 
 </details>
 
